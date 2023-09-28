@@ -22,6 +22,7 @@
 <!-------------------------------------------------------------------------------------------------------->
     <!--Início do PHP-->
     <?php
+    /* Como no Início está sem variável ocorrerá um erro, coloque uma idade e voltará ao normal */
         $idade = $_POST["idade"]; //Faz referência à "<form method='post'>" da linha 13//
         if ($idade < 16 && $idade > 0) {
         echo "Não pode votar!";
