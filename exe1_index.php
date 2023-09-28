@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!------------------------------------------------------------------------------------------------------->
 <!--Início HTML-->
 <html>
 <head>
@@ -10,6 +11,7 @@
     <script src='main.js'></script>
 </head>
 <body>
+<!------------------------------------------------------------------------------------------------------->
     <!--Início do Campo para preencher com a idade-->
     <form method="post">
         <label for="idade">Informe sua idade</label>
@@ -18,6 +20,7 @@
         <input type="submit"><!--Botão para enviar a informação-->
     </form>
     <!-- Fim do Campo para preencher com a idade-->
+<!-------------------------------------------------------------------------------------------------------->
     <!--Início do PHP-->
     <?php
         $idade = $_POST["idade"]; //Faz referência à "<form method='post'>" da linha 13//
@@ -34,6 +37,7 @@
         }
     ?>
     <!--Fim do PHP-->
+<!------------------------------------------------------------------------------------------------------->
 </body>
 </html>
 <!--Fim do HTML-->
