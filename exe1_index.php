@@ -25,15 +25,15 @@
     <?php
         $idade = $_POST["idade"]; //Faz referência à "<form method='post'>" da linha 13//
         if ($idade < 16 && $idade > 0) {
-        echo "Não pode votar";
+        echo "Não pode votar!";
         } else if ($idade >= 16 && $idade <= 18) {
-        echo "Voto Facultativo";
+        echo "O voto é facultativo.";
         } else if ($idade >= 19 && $idade <= 65) {
-        echo "O voto é obrigatório";
+        echo "O voto é obrigatório!";
         } else if ($idade >= 66) {
-        echo "O voto é facultativo";
+        echo "O voto é facultativo.";
         } else {
-        echo "Coloque uma idade válida";
+        echo "Coloque uma idade válida!";
         }
     ?>
     <!--Fim do PHP-->
