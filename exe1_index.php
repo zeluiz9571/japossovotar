@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--Início HTML-->
 <html>
 <head>
     <meta charset='utf-8'>
@@ -35,3 +36,4 @@
     <!--Fim do PHP-->
 </body>
 </html>
+<!--Fim do HTML-->
